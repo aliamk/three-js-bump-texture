@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color: rgb(24, 24, 24);
+}
+
+/* body {
+    overflow-x: hidden;
+} */
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    mix-blend-mode: exclusion;
+    
+        /* width: 100%;
+        height: 100%;
+        display: block;
+        background: url(https://threejsfundamentals.org/threejs/resources/images/daikanyama.jpg) no-repeat center center;
+        background-size: cover;
+        mix-blend-mode: exclusion;  */    
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 8rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+section {
+    height: 100vh;
+}
+
+#board {
+    height: 80%;
+    width: 80%;
+    background-color: red;
+    opacity: 0.5;
+}
